@@ -13,7 +13,7 @@
 <a class="btn" id="buy" href="https://www.paypal.com/ncp/payment/SQN8939KMFFRL">Comprar licencia · $12</a>
 <a class="btn alt" id="dl" href="#" aria-disabled="true">Descargar para Windows</a>
 </div>
-<p class="note" id="dlnote">Prueba gratis de 30 minutos de vídeo, sin tarjeta. Para Windows 10 y 11.</p>
+<p class="note" id="dlnote">Prueba gratis de 30 minutos de vídeo, sin tarjeta. Para Windows 10 y 11. Si Google Drive o Windows muestran un aviso al descargar o instalar, es normal en programas nuevos: elige «Descargar de todos modos» y, en Windows, «Más información → Ejecutar de todas formas».</p>
 </div>
 
 <section id="como"><h2>Cómo funciona</h2>
@@ -56,7 +56,7 @@
 </div>
 <script>
 // Cuando tengas el enlace de descarga, pégalo entre las comillas y guarda el archivo.
-var DESCARGA = "";
+var DESCARGA = "https://drive.google.com/file/d/1Re3iIIYu9e11X_Q4Dy7A3y5uvlkdkRb8/view?usp=drive_link";
 if (DESCARGA) { var d = document.getElementById("dl"); d.href = DESCARGA; d.removeAttribute("aria-disabled"); }
 else { document.getElementById("dlnote").textContent = "La descarga estará disponible muy pronto. Prueba gratis de 30 minutos de vídeo cuando la tengas."; }
 </script>
